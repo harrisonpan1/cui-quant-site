@@ -6,7 +6,7 @@ description: A curated research map behind the technology tracks. The website sh
 
 ## Option surfaces and implied information
 
-- **Joint arbitrage-free smoothing of American call and put options surfaces** — forthcoming, *European Journal of Operational Research* (2026).
+- **Joint arbitrage-free smoothing of American call and put options surfaces** — *European Journal of Operational Research* (2026).
 - **Tighter bounds for implied volatility based on the Dirac Delta family method** — *Journal of Futures Markets* (2025).
 - **A new representation of the risk-neutral distribution and its applications** — *Quantitative Finance* (2022).
 - **A model-free Fourier cosine method for estimating the risk-neutral density** — *Journal of Derivatives* (2021).

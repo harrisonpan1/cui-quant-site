@@ -15,7 +15,6 @@ This track turns option quotes into structured, diagnosable market information.
 | Risk-neutral density & distribution | Risk-neutral density representations and Fourier-cosine methods | Density, CDF, skew and maturity comparisons | European-price input; tail and positivity checks |
 | Option-implied quantiles | Model-free option-implied quantiles | Quantile curve, identifiable probability range, sensitivity | Clearly labeled under the risk-neutral measure |
 
-> The site should never turn a risk-neutral quantity into a physical-probability forecast without additional modeling assumptions.
 
 ## Derivative Pricing & Risk Engine
 
