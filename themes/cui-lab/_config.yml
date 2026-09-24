@@ -1,0 +1,12 @@
+nav:
+  - title: Technology
+    url: /technology/
+  - title: Examples
+    url: /examples/
+  - title: Research
+    url: /research/
+  - title: About
+    url: /about/
+cta:
+  label: Contact
+  url: mailto:zcui6@stevens.edu

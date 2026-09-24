@@ -1,0 +1,15 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="<%- url_for('/') %>">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      <% (theme.nav || []).forEach(function(item){ %>
+        <a href="<%- url_for(item.url) %>"><%= item.title %></a>
+      <% }) %>
+      <a class="btn btn-small" href="<%= theme.cta.url %>"><%= theme.cta.label %></a>
+    </nav>
+  </div>
+</header>

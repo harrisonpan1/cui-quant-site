@@ -1,0 +1,20 @@
+title: Cui Quantitative Finance Lab
+subtitle: Research-grade analytics for derivatives, volatility and risk
+summary: From academic research to reproducible quantitative tools.
+author: Zhenyu Cui
+language: en
+timezone: America/New_York
+url: https://YOUR_GITHUB_USERNAME.github.io
+root: /
+permalink: :title/
+pretty_urls:
+  trailing_index: false
+  trailing_html: false
+theme: cui-lab
+
+highlight:
+  enable: true
+  line_number: false
+
+skip_render:
+  - README.md
