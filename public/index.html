@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From academic research to reproducible quantitative tools.">
+  <title>Home | Cui Quantitative Finance Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cui-quant-site/css/style.css">
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/cui-quant-site/">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      
+        <a href="/cui-quant-site/technology/">Technology</a>
+      
+        <a href="/cui-quant-site/examples/">Examples</a>
+      
+        <a href="/cui-quant-site/research/">Research</a>
+      
+        <a href="/cui-quant-site/about/">About</a>
+      
+      <a class="btn btn-small" href="mailto:zcui6@stevens.edu">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+  <div class="hero-grid-bg"></div>
+  <div class="container hero-content">
+    <div class="hero-copy">
+      <p class="eyebrow">Quantitative Finance · Derivatives · Volatility · Risk</p>
+      <h1>From research papers to <span>reproducible quantitative tools.</span></h1>
+      <p class="hero-lead">A research-to-industry platform for option surface analytics, derivative pricing, joint equity-volatility calibration and actuarial applications.</p>
+      <div class="hero-actions">
+        <a class="btn" href="/cui-quant-site/technology/">Explore technology</a>
+        <a class="btn btn-ghost" href="/cui-quant-site/examples/">View examples</a>
+      </div>
+      <div class="hero-meta">
+        <div><strong>100+</strong><span>research publications</span></div>
+        <div><strong>4</strong><span>core technology tracks</span></div>
+        <div><strong>2013–2026</strong><span>continuous research program</span></div>
+      </div>
+    </div>
+    <div class="hero-visual" aria-hidden="true">
+      <div class="chart-card card-a">
+        <div class="chart-label">IMPLIED VOL SURFACE</div>
+        <svg viewBox="0 0 420 230" role="img">
+          <defs><linearGradient id="g1" x1="0" x2="1"><stop stop-color="#36c7bd"/><stop offset="1" stop-color="#5270ff"/></linearGradient></defs>
+          <path d="M12 175 C90 110, 105 180, 170 120 S280 60, 408 105" fill="none" stroke="url(#g1)" stroke-width="5"/>
+          <path d="M12 195 C100 135, 130 195, 190 150 S295 95, 408 135" fill="none" stroke="#7386a9" stroke-width="2" opacity=".6"/>
+          <path d="M12 155 C90 95, 125 155, 185 95 S295 35, 408 75" fill="none" stroke="#7386a9" stroke-width="2" opacity=".45"/>
+        </svg>
+      </div>
+      <div class="mini-card card-b"><span>CTMC</span><strong>Pricing Engine</strong><small>Model · Contract · Greeks</small></div>
+      <div class="mini-card card-c"><span>Q</span><strong>Implied Distribution</strong><small>CDF · Density · Quantiles</small></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Core capabilities</p>
+      <h2>One research platform, four connected technology tracks.</h2>
+      <p>Organized around institutional workflows rather than individual papers.</p>
+    </div>
+    <div class="cards four">
+      <a class="feature-card" href="/cui-quant-site/technology/#surface"><span class="num">01</span><h3>Option Surface & Implied Risk</h3><p>Arbitrage-aware smoothing, implied-volatility inversion, risk-neutral density and option-implied quantiles.</p><span class="link">Learn more →</span></a>
+      <a class="feature-card" href="/cui-quant-site/technology/#pricing"><span class="num">02</span><h3>Derivative Pricing & Risk Engine</h3><p>CTMC, transform and semi-analytical methods for vanilla, barrier, Asian, American and volatility-linked contracts.</p><span class="link">Learn more →</span></a>
+      <a class="feature-card" href="/cui-quant-site/technology/#joint"><span class="num">03</span><h3>Equity–Volatility Joint Calibration</h3><p>Joint SPX/VIX market calibration using implied-tree and stochastic-volatility research.</p><span class="link">Learn more →</span></a>
+      <a class="feature-card" href="/cui-quant-site/technology/#insurance"><span class="num">04</span><h3>Insurance & Annuity Analytics</h3><p>Variable annuity pricing, VIX-linked fees, long-term-care riders and risk measures.</p><span class="link">Learn more →</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container split">
+    <div>
+      <p class="eyebrow light">Built for transparent validation</p>
+      <h2>Every result should come with the assumptions that produced it.</h2>
+      <p class="muted">The goal is not a black-box product page. Each example should expose inputs, model scope, numerical settings, benchmark error, runtime and failure states.</p>
+      <a class="text-link" href="/cui-quant-site/examples/">See the validation template →</a>
+    </div>
+    <div class="code-window">
+      <div class="code-top"><span></span><span></span><span></span><small>example.py</small></div>
+<pre><code>from cuiquant import SurfaceAnalyzer
+
+model = SurfaceAnalyzer(
+  asset="equity",
+  exercise="american"
+)
+
+result = model.fit(option_chain)
+
+print(result.diagnostics)
+# arbitrage_residual
+# quote_adjustment
+# convergence_status
+# runtime_ms</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head row">
+      <div><p class="eyebrow">Research examples</p><h2>Start with hard, falsifiable questions.</h2></div>
+      <a class="btn btn-outline" href="/cui-quant-site/examples/">All examples</a>
+    </div>
+    <div class="cards three">
+      <div class="example-card"><div class="example-art surface-art"></div><div class="pad"><span class="tag">SURFACE</span><h3>Can sparse American quotes form a consistent surface?</h3><p>Compare raw and adjusted quotes, constraint residuals and bid-ask deviations.</p></div></div>
+      <div class="example-card"><div class="example-art density-art"></div><div class="pad"><span class="tag">IMPLIED RISK</span><h3>What downside distribution is embedded in option prices?</h3><p>Recover risk-neutral density, CDF and quantiles with explicit coverage diagnostics.</p></div></div>
+      <div class="example-card"><div class="example-art barrier-art"></div><div class="pad"><span class="tag">PRICING</span><h3>Why does barrier monitoring frequency change value?</h3><p>Separate contract differences from numerical error using benchmarked comparisons.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section accent-band">
+  <div class="container split compact">
+    <div><p class="eyebrow">Academic foundation</p><h2>Research depth across derivatives, volatility, stochastic simulation and actuarial finance.</h2></div>
+    <div><p>Professor Zhenyu Cui is an Associate Professor of Financial Engineering at Stevens Institute of Technology, with a research program spanning derivatives pricing, volatility modeling, computational finance and insurance.</p><a class="btn btn-dark" href="/cui-quant-site/research/">Browse selected research</a></div>
+  </div>
+</section>
+
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-mark">CQ</span><span class="brand-text">Cui Quant Lab</span></div>
+      <p>Research-grade quantitative methods for derivatives, volatility, insurance and risk analytics.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/cui-quant-site/technology/">Technology</a>
+      <a href="/cui-quant-site/examples/">Examples</a>
+      <a href="/cui-quant-site/research/">Research</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:zcui6@stevens.edu">zcui6@stevens.edu</a>
+      <a target="_blank" rel="noopener" href="https://scholar.google.com.sg/citations?user=pW68lnMAAAAJ">Google Scholar</a>
+      <a target="_blank" rel="noopener" href="http://ssrn.com/author=1276571">SSRN</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Cui Quantitative Finance Lab · Stevens Institute of Technology</div>
+</footer>
+<script src="/cui-quant-site/js/main.js"></script>
+</body>
+</html>
+

@@ -1,3 +1,4 @@
 ---
-layout: false
+layout: index
+title: Home
 ---
