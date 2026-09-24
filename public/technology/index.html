@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From academic research to reproducible quantitative tools.">
+  <title>Technology | Cui Quantitative Finance Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cui-quant-site/css/style.css">
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/cui-quant-site/">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      
+        <a href="/cui-quant-site/technology/">Technology</a>
+      
+        <a href="/cui-quant-site/examples/">Examples</a>
+      
+        <a href="/cui-quant-site/research/">Research</a>
+      
+        <a href="/cui-quant-site/about/">About</a>
+      
+      <a class="btn btn-small" href="mailto:zcui6@stevens.edu">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From academic research to reproducible quantitative tools.">
+  <title>Technology | Cui Quantitative Finance Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cui-quant-site/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/cui-quant-site/">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      
+        <a href="/cui-quant-site/technology/">Technology</a>
+      
+        <a href="/cui-quant-site/examples/">Examples</a>
+      
+        <a href="/cui-quant-site/research/">Research</a>
+      
+        <a href="/cui-quant-site/about/">About</a>
+      
+      <a class="btn btn-small" href="mailto:zcui6@stevens.edu">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Research-to-industry capabilities</p>
+      <h1>Technology</h1>
+      <p class="lead">Four connected research tracks organized around quantitative workflows, with explicit assumptions, diagnostics and maturity levels.</p>
+    </div>
+  </section>
+  <section class="container narrow prose">
+    <h2 id="Option-Surface-Implied-Risk-Analytics"><a href="#Option-Surface-Implied-Risk-Analytics" class="headerlink" title="Option Surface &amp; Implied Risk Analytics"></a>Option Surface &amp; Implied Risk Analytics</h2><p>This track turns option quotes into structured, diagnosable market information.</p>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>Research basis</th>
+<th>Intended output</th>
+<th>Initial boundary</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Joint American call&#x2F;put surface smoothing</td>
+<td>Joint arbitrage-free smoothing</td>
+<td>Adjusted price&#x2F;IV surface, constraint diagnostics, quote-deviation report</td>
+<td>Start from validated non-dividend settings</td>
+</tr>
+<tr>
+<td>Implied-volatility inversion</td>
+<td>Delta-family and bound methods</td>
+<td>IV, residual, bounds, failure status</td>
+<td>Shared computational primitive</td>
+</tr>
+<tr>
+<td>Risk-neutral density &amp; distribution</td>
+<td>Risk-neutral density representations and Fourier-cosine methods</td>
+<td>Density, CDF, skew and maturity comparisons</td>
+<td>European-price input; tail and positivity checks</td>
+</tr>
+<tr>
+<td>Option-implied quantiles</td>
+<td>Model-free option-implied quantiles</td>
+<td>Quantile curve, identifiable probability range, sensitivity</td>
+<td>Clearly labeled under the risk-neutral measure</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>The site should never turn a risk-neutral quantity into a physical-probability forecast without additional modeling assumptions.</p>
+</blockquote>
+<h2 id="Derivative-Pricing-Risk-Engine"><a href="#Derivative-Pricing-Risk-Engine" class="headerlink" title="Derivative Pricing &amp; Risk Engine"></a>Derivative Pricing &amp; Risk Engine</h2><p>A modular pricing stack built from continuous-time Markov chain approximations, transforms, semi-analytical methods and simulation.</p>
+<h3 id="Initial-model-and-contract-scope"><a href="#Initial-model-and-contract-scope" class="headerlink" title="Initial model and contract scope"></a>Initial model and contract scope</h3><ul>
+<li>One reproducible base model plus one stochastic-volatility &#x2F; stochastic-local-volatility model.</li>
+<li>European benchmark plus one discretely monitored barrier contract as a validated path-dependent example.</li>
+<li>Price, selected Greeks, parameter scenarios, numerical settings and explicit error states.</li>
+<li>Benchmark each method on a common hardware and accuracy target before making performance claims.</li>
+</ul>
+<h3 id="Longer-term-expansion"><a href="#Longer-term-expansion" class="headerlink" title="Longer-term expansion"></a>Longer-term expansion</h3><p>Asian, Bermudan&#x2F;American, occupation-time, timer, VIX&#x2F;variance products, rough volatility and selected multi-asset claims can be added only as the corresponding implementations are validated.</p>
+<h2 id="Equity–Volatility-Joint-Calibration"><a href="#Equity–Volatility-Joint-Calibration" class="headerlink" title="Equity–Volatility Joint Calibration"></a>Equity–Volatility Joint Calibration</h2><p>The distinctive research direction here is simultaneous information extraction from the equity option market and the volatility-derivative market.</p>
+<p>A flagship research preview can compare:</p>
+<ol>
+<li>a calibration using equity options only;</li>
+<li>a joint SPX&#x2F;VIX calibration;</li>
+<li>errors for both markets separately;</li>
+<li>constraint residuals, runtime and solver failure flags.</li>
+</ol>
+<p>The first public version should use precomputed market snapshots until sparse-data behavior, non-standard maturities and initialization are robust enough for controlled programmatic access.</p>
+<h2 id="Insurance-Annuity-Analytics"><a href="#Insurance-Annuity-Analytics" class="headerlink" title="Insurance &amp; Annuity Analytics"></a>Insurance &amp; Annuity Analytics</h2><p>Research on variable annuities and actuarial risk naturally forms a separate solution area because the contracts, data and validation criteria differ from trading-desk workflows.</p>
+<p>Representative capabilities include VIX-linked fee design, GLWB&#x2F;LTC valuation, multi-asset annuity Greeks, surrender analysis and risk measures. Any public example should fix the contract specification, mortality&#x2F;health assumptions, surrender behavior and economic scenario set.</p>
+
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-mark">CQ</span><span class="brand-text">Cui Quant Lab</span></div>
+      <p>Research-grade quantitative methods for derivatives, volatility, insurance and risk analytics.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/cui-quant-site/technology/">Technology</a>
+      <a href="/cui-quant-site/examples/">Examples</a>
+      <a href="/cui-quant-site/research/">Research</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:zcui6@stevens.edu">zcui6@stevens.edu</a>
+      <a target="_blank" rel="noopener" href="https://scholar.google.com.sg/citations?user=pW68lnMAAAAJ">Google Scholar</a>
+      <a target="_blank" rel="noopener" href="http://ssrn.com/author=1276571">SSRN</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Cui Quantitative Finance Lab · Stevens Institute of Technology</div>
+</footer>
+<script src="/cui-quant-site/js/main.js"></script>
+</body>
+</html>
+
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-mark">CQ</span><span class="brand-text">Cui Quant Lab</span></div>
+      <p>Research-grade quantitative methods for derivatives, volatility, insurance and risk analytics.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/cui-quant-site/technology/">Technology</a>
+      <a href="/cui-quant-site/examples/">Examples</a>
+      <a href="/cui-quant-site/research/">Research</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:zcui6@stevens.edu">zcui6@stevens.edu</a>
+      <a target="_blank" rel="noopener" href="https://scholar.google.com.sg/citations?user=pW68lnMAAAAJ">Google Scholar</a>
+      <a target="_blank" rel="noopener" href="http://ssrn.com/author=1276571">SSRN</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Cui Quantitative Finance Lab · Stevens Institute of Technology</div>
+</footer>
+<script src="/cui-quant-site/js/main.js"></script>
+</body>
+</html>
+

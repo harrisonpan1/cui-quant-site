@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From academic research to reproducible quantitative tools.">
+  <title>Examples | Cui Quantitative Finance Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cui-quant-site/css/style.css">
+<meta name="generator" content="Hexo 7.3.0"></head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/cui-quant-site/">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      
+        <a href="/cui-quant-site/technology/">Technology</a>
+      
+        <a href="/cui-quant-site/examples/">Examples</a>
+      
+        <a href="/cui-quant-site/research/">Research</a>
+      
+        <a href="/cui-quant-site/about/">About</a>
+      
+      <a class="btn btn-small" href="mailto:zcui6@stevens.edu">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="From academic research to reproducible quantitative tools.">
+  <title>Examples | Cui Quantitative Finance Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/cui-quant-site/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/cui-quant-site/">
+      <span class="brand-mark">CQ</span>
+      <span class="brand-text">Cui Quant Lab</span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    <nav class="nav-links">
+      
+        <a href="/cui-quant-site/technology/">Technology</a>
+      
+        <a href="/cui-quant-site/examples/">Examples</a>
+      
+        <a href="/cui-quant-site/research/">Research</a>
+      
+        <a href="/cui-quant-site/about/">About</a>
+      
+      <a class="btn btn-small" href="mailto:zcui6@stevens.edu">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page-main">
+  <section class="page-hero">
+    <div class="container narrow">
+      <p class="eyebrow">Reproducible case studies</p>
+      <h1>Examples</h1>
+      <p class="lead">Each example is framed as a concrete quantitative question with clear inputs, outputs, benchmarks and failure conditions.</p>
+    </div>
+  </section>
+  <section class="container narrow prose">
+    <h2 id="1-Can-sparse-American-quotes-form-a-consistent-surface"><a href="#1-Can-sparse-American-quotes-form-a-consistent-surface" class="headerlink" title="1. Can sparse American quotes form a consistent surface?"></a>1. Can sparse American quotes form a consistent surface?</h2><p><strong>Input:</strong> a fixed-time call&#x2F;put option chain with strike, expiry, bid&#x2F;ask, spot, rates and clearly documented dividend assumptions.</p>
+<p><strong>Show:</strong> raw quotes and violations on the left; adjusted price&#x2F;IV surfaces on the right; below that, quote adjustments, weighted error and the fraction remaining inside bid&#x2F;ask.</p>
+<p><strong>Validate:</strong> constraint residuals, deviation from observed quotes, sparse-input failure rate and runtime.</p>
+<h2 id="2-What-downside-distribution-is-embedded-in-option-prices"><a href="#2-What-downside-distribution-is-embedded-in-option-prices" class="headerlink" title="2. What downside distribution is embedded in option prices?"></a>2. What downside distribution is embedded in option prices?</h2><p>Use a single European option chain to recover a risk-neutral CDF, density and selected quantiles. Visually separate the strike region supported by observed quotes from extrapolated tails.</p>
+<p><strong>Validate:</strong> CDF monotonicity, density non-negativity and normalization, repricing error and quantile residuals.</p>
+<h2 id="3-Why-does-barrier-monitoring-frequency-change-value"><a href="#3-Why-does-barrier-monitoring-frequency-change-value" class="headerlink" title="3. Why does barrier monitoring frequency change value?"></a>3. Why does barrier monitoring frequency change value?</h2><p>Hold the model and contract terms fixed while switching between monthly, weekly and daily monitoring. Compare contract value, mechanism explanation and numerical cost.</p>
+<p><strong>Important:</strong> continuous and discrete monitoring define different contracts. Their price difference is not automatically numerical error.</p>
+<h2 id="4-What-changes-when-SPX-and-VIX-are-calibrated-jointly"><a href="#4-What-changes-when-SPX-and-VIX-are-calibrated-jointly" class="headerlink" title="4. What changes when SPX and VIX are calibrated jointly?"></a>4. What changes when SPX and VIX are calibrated jointly?</h2><p>Use a small set of precomputed market snapshots. Display the two market surfaces vertically, then compare equity-only and joint calibration results.</p>
+<p><strong>Report:</strong> separate RMSEs, bid&#x2F;ask coverage, constraint residuals, runtime, solver status, initialization and maturity conventions.</p>
+<h2 id="5-How-do-VIX-linked-annuity-fees-affect-contract-value-and-model-implied-surrender"><a href="#5-How-do-VIX-linked-annuity-fees-affect-contract-value-and-model-implied-surrender" class="headerlink" title="5. How do VIX-linked annuity fees affect contract value and model-implied surrender?"></a>5. How do VIX-linked annuity fees affect contract value and model-implied surrender?</h2><p>Fix one contract and behavior model, then compare a fixed fee, VIX-linked fee and capped fee under the same guarantee level.</p>
+<h3 id="Standard-case-study-template"><a href="#Standard-case-study-template" class="headerlink" title="Standard case-study template"></a>Standard case-study template</h3><table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Required content</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>One-sentence user problem</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Data, date, contract and model scope</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Raw input versus technical output</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Benchmark, error, runtime and failure status</td>
+</tr>
+<tr>
+<td>5</td>
+<td>What can be concluded and what is not covered</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Research basis and contact &#x2F; controlled-trial entry</td>
+</tr>
+</tbody></table>
+
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-mark">CQ</span><span class="brand-text">Cui Quant Lab</span></div>
+      <p>Research-grade quantitative methods for derivatives, volatility, insurance and risk analytics.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/cui-quant-site/technology/">Technology</a>
+      <a href="/cui-quant-site/examples/">Examples</a>
+      <a href="/cui-quant-site/research/">Research</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:zcui6@stevens.edu">zcui6@stevens.edu</a>
+      <a target="_blank" rel="noopener" href="https://scholar.google.com.sg/citations?user=pW68lnMAAAAJ">Google Scholar</a>
+      <a target="_blank" rel="noopener" href="http://ssrn.com/author=1276571">SSRN</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Cui Quantitative Finance Lab · Stevens Institute of Technology</div>
+</footer>
+<script src="/cui-quant-site/js/main.js"></script>
+</body>
+</html>
+
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand footer-brand"><span class="brand-mark">CQ</span><span class="brand-text">Cui Quant Lab</span></div>
+      <p>Research-grade quantitative methods for derivatives, volatility, insurance and risk analytics.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="/cui-quant-site/technology/">Technology</a>
+      <a href="/cui-quant-site/examples/">Examples</a>
+      <a href="/cui-quant-site/research/">Research</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <a href="mailto:zcui6@stevens.edu">zcui6@stevens.edu</a>
+      <a target="_blank" rel="noopener" href="https://scholar.google.com.sg/citations?user=pW68lnMAAAAJ">Google Scholar</a>
+      <a target="_blank" rel="noopener" href="http://ssrn.com/author=1276571">SSRN</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">© <span id="year"></span> Cui Quantitative Finance Lab · Stevens Institute of Technology</div>
+</footer>
+<script src="/cui-quant-site/js/main.js"></script>
+</body>
+</html>
+

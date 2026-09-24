@@ -4,7 +4,7 @@ eyebrow: Research-to-industry capabilities
 description: Four connected research tracks organized around quantitative workflows, with explicit assumptions, diagnostics and maturity levels.
 ---
 
-## Option Surface & Implied Risk Analytics {#surface}
+## Option Surface & Implied Risk Analytics
 
 This track turns option quotes into structured, diagnosable market information.
 
@@ -17,7 +17,7 @@ This track turns option quotes into structured, diagnosable market information.
 
 > The site should never turn a risk-neutral quantity into a physical-probability forecast without additional modeling assumptions.
 
-## Derivative Pricing & Risk Engine {#pricing}
+## Derivative Pricing & Risk Engine
 
 A modular pricing stack built from continuous-time Markov chain approximations, transforms, semi-analytical methods and simulation.
 
@@ -32,7 +32,7 @@ A modular pricing stack built from continuous-time Markov chain approximations, 
 
 Asian, Bermudan/American, occupation-time, timer, VIX/variance products, rough volatility and selected multi-asset claims can be added only as the corresponding implementations are validated.
 
-## Equity–Volatility Joint Calibration {#joint}
+## Equity–Volatility Joint Calibration
 
 The distinctive research direction here is simultaneous information extraction from the equity option market and the volatility-derivative market.
 
@@ -45,7 +45,7 @@ A flagship research preview can compare:
 
 The first public version should use precomputed market snapshots until sparse-data behavior, non-standard maturities and initialization are robust enough for controlled programmatic access.
 
-## Insurance & Annuity Analytics {#insurance}
+## Insurance & Annuity Analytics
 
 Research on variable annuities and actuarial risk naturally forms a separate solution area because the contracts, data and validation criteria differ from trading-desk workflows.
 

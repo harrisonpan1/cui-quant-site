@@ -2,6 +2,9 @@
   "name": "cui-quant-site",
   "version": "1.0.0",
   "private": true,
+  "hexo": {
+    "version": "7.3.0"
+  },
   "scripts": {
     "clean": "hexo clean",
     "build": "hexo generate",
