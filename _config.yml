@@ -4,8 +4,8 @@ summary: From academic research to reproducible quantitative tools.
 author: Zhenyu Cui
 language: en
 timezone: America/New_York
-url: https://harrisonpan1.github.io/cui-quant-site
-root: /cui-quant-site/
+url: https://volatail.com #https://harrisonpan1.github.io/cui-quant-site
+root: / #/cui-quant-site/
 permalink: :title/
 pretty_urls:
   trailing_index: false
